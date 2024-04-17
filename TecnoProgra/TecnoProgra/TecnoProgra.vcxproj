@@ -129,15 +129,20 @@
   <ItemGroup>
     <ClCompile Include="Advanced structs.cpp" />
     <ClCompile Include="Arrays.cpp" />
+    <ClCompile Include="Car.cpp" />
     <ClCompile Include="Defines.cpp" />
     <ClCompile Include="EnumClass.cpp" />
     <ClCompile Include="Functions.cpp" />
     <ClCompile Include="GameLoop.cpp" />
     <ClCompile Include="No se.cpp" />
+    <ClCompile Include="Sorting2.cpp" />
     <ClCompile Include="Sorts.cpp" />
     <ClCompile Include="STL Vectors.cpp" />
     <ClCompile Include="TecnoProgra.cpp" />
     <ClCompile Include="Vectors.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Car.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
