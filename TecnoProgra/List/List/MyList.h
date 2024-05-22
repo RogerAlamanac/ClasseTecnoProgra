@@ -2,6 +2,9 @@
 #include <iostream>
 class MyList
 {
+	
+
+public:
 	struct Node
 	{
 		int m_value;
@@ -12,8 +15,6 @@ class MyList
 	size_t m_size;
 	Node* m_begin;
 	Node* m_end;
-
-public:
 	MyList() {
 		m_size = 0;
 		m_begin = nullptr;

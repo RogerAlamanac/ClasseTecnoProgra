@@ -24,7 +24,16 @@ void main() {
     myL1.Insert(myL1.Front(), 7);
     myL1.Insert(myL1.Front(), 2);
     myL1.Insert(myL1.Front(), 4);
+    // myL1 = 15 10 7
 
-    myL1.Print();
-    myL1.ReversePrint();
+    // Advance
+   MyList::Node* node = myL1.Advance(0);
+   std::cout << node->m_value << std::endl;
+    // Erase
+   myL1.Erase(node);
+   myL1.Erase(myL1.Back());
+   myL1.Erase(myL1.Back());
+
+   myL1.Print();
+   myL1.ReversePrint();
 }
